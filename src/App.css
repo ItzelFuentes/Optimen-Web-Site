@@ -1,0 +1,524 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+.App-header {
+background-color: #ffffff;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right ;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+/*navbar - Itzel */
+section {
+  color: black;
+  text-shadow: 3px 3px rgba(#4169E1);
+  height: 100vh;
+  font-family: Montserrat;
+  margin-right: 0;
+}
+
+.navBg{
+  background-color:  #4169E1;
+  text-shadow: black;
+  width: 100%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  display: none;
+  
+
+}
+
+
+
+.me-auto{
+  margin-left: 0 auto;
+  display: none;
+}
+
+
+/*footer*/
+.redes{
+ margin-top: 5px;
+}
+
+.sb_footer1{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  color:white;
+}
+
+.sb_footer2{
+  width: 30%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  color:white;
+}
+
+.footer1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  color:white;
+}
+
+.footer2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.footer3 {
+  width: 60%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+/*cards de services - Itzel */
+
+.card-container {
+  display:flex;
+  justify-content: center;
+  position:center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: .5rem;
+  
+
+}
+
+#cardServ {
+  background-color: #ffffff;
+  width: 316px;
+  height: 275px;
+  margin: 10px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  color: #000000;
+
+}
+
+/*information*/
+.text{
+  text-Align: left;
+}
+
+
+.responsive{
+  max-width: 768px
+}
+
+
+
+
+/*MA-------------*/
+
+#text{
+  font-family: 'Montserrat';
+  margin-left: 5%;
+}
+
+#video{
+  width: 80vw;
+}
+
+.section-title{
+  font-family: 'Montserrat';
+}
+
+h1, p, h4{
+  color: black;
+  top: 10px;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+div.contacto{
+  top:200px;
+  margin-bottom: 20px;
+}
+
+.primerText{
+  margin-top: 10px;
+}
+
+.column1 {
+  top: 620px;
+  position:absolute;
+  left:50px;
+  width:355px;
+  background-color:#F2F4F7;
+  height:210px;
+  font-size: 19px;
+}
+
+.column2 {
+  top: 620px;
+  position:absolute;
+  left:480px;
+  width:355px;
+  background-color:#F2F4F7;
+  height:210px;
+  font-size: 18px;
+}
+
+.a2{
+  border-radius: 100%;
+  background-size: cover;
+  width:100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.column3{
+  top: 620px;
+  position:absolute;
+  left:900px;
+  width: 355px;
+  background-color:#F2F4F7;
+  height:210px;
+  font-size: 18px;
+}
+
+.AE1{
+  position:absolute;
+  left:60px;
+  width:355px;
+  background-color:#F2F4F7;
+  font-size: 19px;
+}
+
+.AE2{
+  position:absolute;
+  left:505px;
+  width:355px;
+  background-color:#F2F4F7;
+  font-size: 19px;
+}
+
+.AE3{
+  position:absolute;
+  left:940px;
+  width: 355px;
+  background-color:#F2F4F7;
+  font-size: 19px;
+}
+
+#text{
+  margin-left: 5%;
+}
+
+
+
+.seg{
+  font-family: 'Montserrat';
+ height: 420px;
+}
+
+.primero{
+  font-family: 'Montserrat';
+  margin-top: 10px;
+}
+
+.row{
+  margin-bottom: 20px;
+  width: 100vw;
+}
+
+div.section-title{
+  font-family: 'Montserrat';
+  margin-bottom: 20px;
+  width: 95vw;
+  margin-left: 25px;
+}
+
+
+/*contactos yesenia */
+.row{
+  height: 100px;
+  
+}
+
+div.prim{
+  top: 10px;
+  margin-bottom: 16px;
+  height: '100px'
+}
+
+.Mess {
+   text-align: justify;
+   font-family: 'Montserrat';
+}
+
+.fm{
+  text-align: justify;
+  font-family: 'Montserrat';
+}
+
+.bt{
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 18px;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  width:327px;
+}
+
+.contact{
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+.card{
+  margin: 0 auto;
+  text-align: center;
+  width: 80%; 
+
+}
+
+div.con{
+  margin-top: 8px;
+  height: 300px;
+}
+
+#story{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.innovation{
+  min-height: 1200px;
+  width: 100%;
+}
+
+/*home*/
+.VP{
+  background:#E5E7E9;
+}
+.textP1{
+  text-align: justify;
+  margin-left: 36px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+h4{
+  font-family: 'Montserrat';
+}
+
+.primerFluid{
+  background:  #FFFFFF80;
+  width: 630px;
+  margin-left: 90px;
+  height: 330px;
+}
+
+.primerFluid2{
+  background:  #FFFFFF80;
+  width: 613px;
+  margin-top: 240px;
+  margin-left: 300px;
+  font-family: 'Montserrat';
+  
+}
+
+/*home certifications*/
+.cert1 {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cert2 {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.cert3 {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.cert4 {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* duaetewwweeweererewr */
+
+.boxesContainer{
+  background-color: #f1f1f1;
+  margin-bottom: 550px;
+}
+
+
+.cardBoxs {
+  background-color: #20274c;
+  float: left;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 23.7%;
+}
+
+.cardBoxs:hover .card-inno {
+  transform: rotateY( 180deg);
+}
+
+.card-inno {
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+
+.card-inno p {
+  margin-bottom: 1.8em;
+}
+
+.card-inno .front-inno,
+.card-inno .back-inno {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.card-inno .front-inno strong {
+  border-radius: 100%;
+  color: #f1f1f1;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.card-inno .back-inno {
+  transform: rotateY( 180deg);
+}
+
+.card-inno .back-inno a {
+  padding: 0.3em 0.5em;
+  background: #ebe5e5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+.card-inno .back-inno a:hover {
+  background: #fff;
+  color: #273582;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBoxs:nth-child(1) .card-inno .back-inno {
+  background-color: rgb(13, 122, 232);
+}
+
+.cardBoxs:nth-child(2) .card-inno .back-inno {
+  background-color: rgb(13, 122, 232);
+}
+
+.cardBoxs:nth-child(3) .card-inno .back-inno {
+  background-color: rgb(13, 122, 232);
+}
+
+.cardBoxs:nth-child(4) .card-inno .back-inno {
+  background-color: rgb(13, 122, 232);
+}
+
+.cardBoxs:nth-child(5) .card-inno .back-inno {
+  background-color: rgb(13, 122, 232);
+}
+
+.cardBoxs:nth-child(1) .card-inno {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+.cardBoxs:nth-child(2) .card-inno {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+.cardBoxs:nth-child(3) .card-inno {
+  -webkit-animation: giro 2s 1;
+  animation: giro 2s 1;
+}
+
+.cardBoxs:nth-child(4) .card-inno {
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+}
+.cardBoxs:nth-child(5) .card-inno {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateX( 0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotateX( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardBoxs {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .card-inno {
+    height: 285px;
+  }
+  .cardBoxs:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardBoxs {
+    width: 94.5%;
+  }
+  .card-inno {
+    height: 260px;
+  }
+}
+
+

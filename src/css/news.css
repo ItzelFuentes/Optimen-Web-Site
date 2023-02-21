@@ -1,0 +1,175 @@
+.boxesContainer{
+    background-color: #f1f1f1;
+    margin-bottom: 550px;
+  }
+  
+  
+  .cardBoxs {
+    background-color: #20274c;
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+  
+  .cardBoxs:hover .card-inno {
+    transform: rotateY( 180deg);
+  }
+  
+  .card-inno {
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+  
+  .card-inno p {
+    margin-bottom: 1.8em;
+  }
+  
+  .card-inno .front-inno,
+  .card-inno .back-inno {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card-inno .front-inno strong {
+    border-radius: 100%;
+    color: #f1f1f1;
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+  }
+  
+  .card-inno .back-inno {
+    transform: rotateY( 180deg);
+  }
+  
+  .card-inno .back-inno a {
+    padding: 0.3em 0.5em;
+    background: #ebe5e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1px;
+    font-size: 0.9em;
+    transition: all 0.2s ease 0s;
+  }
+  
+  .card-inno .back-inno a:hover {
+    background: #fff;
+    color: #273582;
+    text-shadow: 0 0 1px #333;
+  }
+  
+  .cardBoxs:nth-child(1) .card-inno .back-inno {
+    background-color: rgb(13, 122, 232);
+  }
+  
+  .cardBoxs:nth-child(2) .card-inno .back-inno {
+    background-color: rgb(13, 122, 232);
+  }
+  
+  .cardBoxs:nth-child(3) .card-inno .back-inno {
+    background-color: rgb(13, 122, 232);
+  }
+  
+  .cardBoxs:nth-child(4) .card-inno .back-inno {
+    background-color: rgb(13, 122, 232);
+  }
+  
+  .cardBoxs:nth-child(5) .card-inno .back-inno {
+    background-color: rgb(13, 122, 232);
+  }
+  
+  .cardBoxs:nth-child(1) .card-inno {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+  }
+  .cardBoxs:nth-child(2) .card-inno {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+  }
+  
+  .cardBoxs:nth-child(3) .card-inno {
+    -webkit-animation: giro 2s 1;
+    animation: giro 2s 1;
+  }
+  
+  .cardBoxs:nth-child(4) .card-inno {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+  }
+  .cardBoxs:nth-child(5) .card-inno {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+  }
+  
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateX( 0deg);
+    }
+  }
+  
+  @keyframes giro {
+    from {
+      transform: rotateX( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .cardBoxs {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+    .card-inno {
+      height: 285px;
+    }
+    .cardBoxs:last-child {
+      margin-bottom: 3%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cardBoxs {
+      width: 94.5%;
+    }
+    .card-inno {
+      height: 260px;
+    }
+  }
+
+  h4 {
+    color: #fff;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.center{
+  margin: auto;
+  text-align: center;
+  
+}
